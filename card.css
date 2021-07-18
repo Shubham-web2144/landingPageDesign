@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: #7F8087;
+}
+section{
+    position: relative;
+    width: 800px;
+    height: 400px;
+    background: #07080A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    border: 2px solid #fff;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 8px;
+    box-shadow: 8px 8px 2pc #101014;
+    overflow: hidden;
+    font-family: 'Otomanopee One', sans-serif;
+}
+section .card_header{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+}
+section .card_header .card_title{
+    position: relative;
+    left: 20px;
+    text-align: start;
+    margin-top: 12px;
+    margin-left: 12px;
+    font-family:  'Festive', cursive;
+    font-size: 1.6em;
+}
+section .card_header .card_menu {
+    position: relative;
+    right: 0;
+    text-align: start;
+    margin-top: 12px;
+    font-family: 'Otomanopee One', sans-serif;
+}
+section .card_header .card_menu ul {
+    position: relative;
+    display: flex;
+    list-style: none;
+}
+section .card_header .card_menu ul li {
+    position: relative;
+    margin: 5px 12px;
+}
+section .card_content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+section .card_content .card_info{
+    position: relative;
+    width: 350px;
+    padding: 18px;
+    left: 5%;
+}
+section .card_content .card_info h1{
+    position: relative;
+    font-weight: 600px;
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 1.3em;
+    text-align: start;
+}
+section .card_content .card_info span{
+    position: relative;
+    font-weight: 1200px;
+    font-family: 'Righteous', cursive;
+    font-size: 2em;
+}
+section .card_content .card_info p {
+    position: relative;
+    font-weight: 300px;
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 0.7em;
+    margin: 14px 4px;
+    word-wrap: wrap;
+}
+section .card_content .card_info .btn{
+    position: relative;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #F8F9FD;
+    color: #F8F9FD;
+    background: transparent;
+    font-family: 'Otomanopee One', sans-serif;
+}
+section .card_content .card_logo{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    top: 10%;
+    right: 0%;
+    background: url('GVD.jpg');
+    background-position: right top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: center;
+    background-blend-mode: overlay;
+    transform: scaleX(-1);
+}
+/*section .card_content .card_logo img{
+    position: relative;
+    width: 350px;
+    height: 250px;
+    background-blend-mode: darken;
+}*/
+section .card_footer{
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    background: transparent;
+    color: #fff;
+    left: 20%;
+    bottom: 10%;
+    font-size: 1.5em;
+}
+section  .card_footer ul{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    list-style: none;
+    
+}
+section  .card_footer ul li{
+    margin: 12px 10px;
+    
+}
